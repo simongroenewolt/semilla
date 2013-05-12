@@ -1,4 +1,4 @@
-require_relative "platform"
+require "semilla/platform"
 require 'flashsdk'
 
 module Semilla

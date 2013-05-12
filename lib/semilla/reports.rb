@@ -82,8 +82,10 @@ module Semilla
 
     def package
       if @classname.include? "."
-        @classname[/(?<package>.*)([\.])/, "package"]
+#        @classname[/(?<package>.*)([\.])/, "package"]
         #using named captures check: "?<package>"
+        @classname[/(.*)([\.])/, "package"]
+        return $1
       else
         ""
       end

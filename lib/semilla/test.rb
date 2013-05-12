@@ -4,8 +4,8 @@ require "rake"
 require 'timeout'
 require 'flashplayer/trust'
 
-require_relative "reports"
-require_relative "report_server"
+require "semilla/reports"
+require "semilla/report_server"
 
 
 module Semilla
