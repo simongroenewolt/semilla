@@ -1,5 +1,6 @@
-
 # Semilla Gem #
+
+This fork is purely done to get Semilla to work on Ruby 1.8.7 which is the default version on OSX at the moment.
 
 This gem adds some rake tasks for testing ActionScript applications with the FlexUnit4 testing framework.
 
